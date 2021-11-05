@@ -1,6 +1,7 @@
 .rodape{
     background-color: rgb(60, 60, 226);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px 70px;

@@ -3,7 +3,8 @@ import "./estilo.css";
 function Footer() {
   return (
     <footer className="rodape">
-        &copy; OnControll {new Date().getFullYear()}
+        <p>&copy; OnControll {new Date().getFullYear()}</p>
+        <p>Desenvolvido por Ashiley</p>
     </footer>
   );
 }
