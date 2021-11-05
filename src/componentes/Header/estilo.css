@@ -1,0 +1,20 @@
+.topo{
+    background-color: rgb(60, 60, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+}
+
+.lista-navegacao-topo{
+    display: flex;
+    list-style: none;
+}
+
+.item-lista-navegacao-topo:first-child{
+    margin-left: 0;
+}
+
+.item-lista-navegacao-topo{
+    margin-left: 20px;
+}

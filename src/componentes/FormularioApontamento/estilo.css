@@ -1,0 +1,66 @@
+.container-form-apontamento{
+    min-width: 600px;
+    max-width: 25%;
+    margin: 40px;
+    height: 100vh;
+}
+
+.form-apontamento{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /* display: none; */
+}
+
+.form-apontamento-caixa-botao-novo-apontamento{
+    margin-bottom: 100px;
+}
+
+.form-apontamento-titulo{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form-apontamento-caixa-cliente{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-apontamento-botao-novo-cliente{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(59, 59, 59);
+    margin-left: 10px;
+}
+
+.form-apontamento-select{
+    padding: 8px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.form-apontamento-descricao{
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.form-apontamento-caixa-botao-enviar{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-apontamento-botao{
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(59, 59, 59);
+}
